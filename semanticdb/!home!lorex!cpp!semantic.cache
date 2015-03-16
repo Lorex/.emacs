@@ -1,0 +1,33 @@
+;; Object cpp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cpp/"
+  :tables (list 
+   (semanticdb-table "1.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("iostream" include nil nil [28 47])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [49 69])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [80 89])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [90 103]))                  
+                :type "int")
+                nil [71 153]))          
+    :file "1.cpp"
+    :pointmax 154
+    :fsize 153
+    :lastmodtime '(21670 2950 31286 607000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!lorex!cpp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
